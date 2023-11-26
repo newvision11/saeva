@@ -140,6 +140,7 @@ button,
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
+
   }
 }
 
@@ -4768,13 +4769,14 @@ i,
 @media (max-width: 575px) {
   .home-slider .slide-item {
     background-position: left;
-    margin-top: 80px;
+    height: 100vh;
   }
 }
 
 .home-slider .slide-item .slide-content {
   position: absolute;
   top: 50%;
+  margin-left: 20px;
   left: auto;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -4950,6 +4952,7 @@ i,
   position: absolute;
   top: 0;
   z-index: 4;
+  
 }
 
 .slick-current .slider-progress {
